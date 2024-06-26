@@ -1,8 +1,8 @@
 # README
 
-This project is designed to fetch and analyze data from top-ranked corporates on https://ranking.glassdollar.com/ using a Dockerized application. The analysis results and fetched data are stored in the data folder.
+This project is designed to fetch and analyze data from enterprises and startups listed on https://ranking.glassdollar.com/ using a Dockerized application. The analysis results and fetched data are stored in the data folder.
 
-* The script initially scrapes data from the top 25 enterprises and startups displayed on the homepage, then collects and stores details about these corporations in a JSON file named `top_ranked_corporates.json`.
+* The script initially scrapes data from the top 25 enterprises displayed on the homepage, then collects and stores details about these corporations in a JSON file named `top_ranked_corporates.json`.
 
 * Next, the script uses Celery to concurrently crawl all listed enterprises, saving their details into a JSON file named `all_corporates.json`.
 
@@ -10,7 +10,7 @@ This project is designed to fetch and analyze data from top-ranked corporates on
 
 * Subsequently, the script extracts key phrases from the descriptions of each corporate cluster. It then submits these clusters to Google GEMINI, which generates a descriptive summary and assigns a title for each cluster.
 
-* Finally, the script saves the results to two JSON files: "cluster_descriptions.json" for the cluster summaries and titles, and "corporates_with_clusters.json" for the corporates saved by their respective clusters.
+* Finally, the script saves the results to two JSON files: `cluster_descriptions.json` for the cluster summaries and titles, and `corporates_with_clusters.json` for the corporates saved by their respective clusters.
 
 
 Clone the repository from GitHub using:
