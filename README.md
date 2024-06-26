@@ -1,6 +1,6 @@
 # README
 
-This project is designed to fetch and analyze data from top-ranked corporates using a Dockerized application. The analysis results and fetched data are stored in the data folder.
+This project is designed to fetch and analyze data from top-ranked corporates on https://ranking.glassdollar.com/ using a Dockerized application. The analysis results and fetched data are stored in the data folder.
 
 * The script initially scrapes data from the top 25 enterprises and startups displayed on the homepage, then collects and stores details about these corporations in a JSON file named `top_ranked_corporates.json`.
 
