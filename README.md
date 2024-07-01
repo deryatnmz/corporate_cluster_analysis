@@ -21,7 +21,7 @@ cd entrapeer
 
 ## Configuration
 
-Before running the project, you need to configure the GEMINI API key. This key can be obtained from Google AI.
+Before running the project, you need to configure the GEMINI API key. This key can be obtained from [Google AI.](https://aistudio.google.com/app/apikey)
 
 Open the config.py file.
 Replace the placeholder with your GEMINI API key
