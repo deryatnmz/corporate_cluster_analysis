@@ -49,6 +49,7 @@ This command will:
 You can monitor the process in the Docker terminal.
 
 **Step 3: Check Task Status**
+
 While fetching data, you can check the status of the task with the following curl command:
 ```
 curl -X GET "http://localhost:8000/task-status/<task_id>"
